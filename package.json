@@ -1,0 +1,23 @@
+{
+  "name": "cypress-cucumber",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "e2e.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "keywords": [
+    "cypress",
+    "cucumber"
+  ],
+  "author": "joanwang",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.1.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-xpath": "^2.0.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}

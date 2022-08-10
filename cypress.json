@@ -1,0 +1,8 @@
+{
+    "baseUrl":"https://www.myer.com.au/join",
+    "chromeWebSecurity":false,
+    "testFiles":"**/*.feature",
+    "compilerOptions": {
+        "types": ["cypress", "cypress-xpath"]
+      }
+}
